@@ -1,0 +1,88 @@
+<div class="row">
+    <div class="col-md-12">
+        <h2>{{ header}}</h2>
+        <p class="subtext">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+        <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/JaAWdljhD5o"></iframe>
+        </div>
+        <a href="#" target="_blank">
+            <button type="button" class="btn btn-default btn-xs my-btn">{{ "see more >" | uppercase}}</button>
+        </a>
+        <h2>Excepteur sint occaecat cupidatat non proident</h2>
+        <p class="subtext"> Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+    </div>
+</div>
+<div class="row" ng-controller="breadCrumbs">
+    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-3 ">
+        <a href="/index.html#/visit1">
+            <img ng-class="{active: routeChecker.isActive('/visit1')}" ng-src="{{ visits[0].image }}" alt="Wizyta1" class="img-responsive img-center hover-effect"></a>
+        <p class="boldText" ng-bind-html="visits[0].boldText"></p>
+        <p class="normalText">{{ visits[0].normalText }}</p>
+    </div>
+    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-3  ">
+        <a href="/index.html#/visit2"><img ng-class="{active: routeChecker.isActive('/visit2')}" ng-src="{{ visits[1].image }}" alt="Wizyta2" class="img-responsive img-center hover-effect"></a>
+        <p class="boldText img-center" ng-bind-html="visits[1].boldText"></p>
+        <p class="normalText img-center margin-down">{{ visits[1].normalText }}</p>
+    </div>
+    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-3  ">
+        <a href="/index.html#/visit3"><img ng-class="{active: routeChecker.isActive('/visit3')}" ng-src="{{ visits[2].image }}" alt="Wizyta3" class="img-responsive img-center hover-effect"></a>
+        <p class="boldText img-center" ng-bind-html="visits[2].boldText"></p>
+        <p class="normalText img-center">{{ visits[2].normalText }}</p>
+    </div>
+    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-0 col-sm-6 col-md-3  ">
+        <a href="/index.html#/visit4"><img ng-class="{active: routeChecker.isActive('/visit4')}" ng-src="{{ visits[3].image }}" alt="Wizyta4" class="img-responsive img-center hover-effect"></a>
+        <p class="boldText img-center" ng-bind-html="visits[3].boldText"></p>
+        <p class="normalText img-center">{{ visits[3].normalText }}</p>
+    </div>
+</div>
+<br/>
+<hr>
+<br/>
+<div class="row">
+    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4"> <img src="img/prod1.jpg" alt="Produkt" class="img-responsive img-padding img-center">
+        <p class="normalText img-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.</p>
+        <a href="#" target="_blank">
+            <button type="button" class="btn btn-default btn-xs my-btn pull-left">{{ "see more >" | uppercase}}</button>
+        </a>
+    </div>
+    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4"> <img src="img/prod1.jpg" alt="Produkt" class="img-responsive img-padding img-center">
+        <p class="normalText img-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+        <a href="#" target="_blank">
+            <button type="button" class="btn btn-default btn-xs my-btn pull-left">{{ "see more >" | uppercase}}</button>
+        </a>
+    </div>
+    <div class="col-xs-offset-1 col-xs-10 col-sm-offset-2 col-sm-8 col-md-offset-0 col-md-4"> <img src="img/prod1.jpg" alt="Produkt" class="img-responsive img-padding img-center">
+        <p class="normalText img-center">Txcepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <a href="#" target="_blank">
+            <button type="button" class="btn btn-default btn-xs my-btn pull-left">{{ "see more >" | uppercase}}</button>
+        </a>
+    </div>
+</div>
+<div class="row">
+    <br/>
+    <br/>
+    <div class='col-lg-offset-1 col-md-offset-1 col-lg-10 col-md-10 col-sm-12 col-xs-12'>
+        <hr>
+        <div class="row">
+            <div class="col-sm-7">
+                <p class="footer-text">Sed ut perspiciatis unde. Lorem&nbsp;ipsum!</p>
+            </div>
+            <div class="col-sm-5">
+                <div class="share-links2">
+                    <a href="#"> <span class="hvr-grow fa-stack fa-2x">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-facebook fa-stack-1x"></i>
+                                         </span></a>
+                    <a href="#"> <span class="hvr-grow fa-stack fa-2x">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-twitter fa-stack-1x"></i>
+                                      </span></a>
+                    <a href="#"> <span class="hvr-grow fa-stack fa-2x">
+              <i class="fa fa-circle-thin fa-stack-2x"></i>
+              <i class="fa fa-google-plus fa-stack-1x"></i>
+                                        </span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

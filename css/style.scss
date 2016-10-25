@@ -1,0 +1,106 @@
+#inner-content2 {
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    h2 {
+        font-size: 34px;
+        font-weight: bold;
+    }
+    .subtext {
+        font-size: 21px;
+        font-style: italic;
+        opacity: 0.6;
+        line-height: 160%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    .my-btn {
+        color: #000;
+        font-size: 11px;
+        border-radius: 0px;
+        background-color: #f0f0f0;
+        border-color: #bbbbbb;
+        padding: 7px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        transition: all 0.25s ease 0.05s;
+    }
+    .my-btn:hover {
+        background-color: #bbbbbb;
+        border-color: #f0f0f0;
+    }
+    .boldText {
+        font-size: 16px;
+        font-weight: bold;
+        text-align: left;
+        margin-bottom: 0;
+        padding-top: 15px;
+    }
+    .normalText {
+        font-size: 14px;
+        text-align: left;
+        padding-bottom: 20px;
+    }
+    .img-center {
+        display: block;
+        margin: 0 auto;
+    }
+    .img-padding {
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .hover-effect {
+        transition: all 0.40s ease 0.15s;
+        cursor: pointer;
+        -webkit-backface-visibility: hidden;
+    }
+    .hover-effect:hover {
+        filter: alpha(opacity=35);
+        -webkit-opacity: 0.35;
+        opacity: 0.35;
+        transform: scale(1.05);
+    }
+    .active {
+        cursor: default;
+        filter: alpha(opacity=35);
+        -webkit-opacity: 0.35;
+        opacity: 0.35;
+        transform: scale(1.05);
+    }
+    .share-links2 {
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    .share-links2 span {
+        color: #666666;
+        margin: 10px;
+    }
+    .share-links2 span:hover {
+        color: #f78b32;
+        transition: 0.8s;
+    }
+    .footer-text {
+        text-align: center;
+        color: #000;
+        opacity: 0.6;
+        font-size: 21px;
+        font-style: italic;
+        padding: 20px;
+    }
+    .margin-down {
+        @media (max-width: 992px) {
+            margin-bottom: 40px;
+        }
+        @media (max-width: 768px) {
+            margin-bottom: 0px;
+        }
+    }
+    @media (max-width: 992px) {
+        .normalText,
+        .boldText {
+            text-align: center;
+        }
+        .pull-left {
+            float: none !important;
+        }
+    }
+}

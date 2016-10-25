@@ -1,0 +1,107 @@
+/* line 1, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+#inner-content2 {
+  font-family: Verdana, sans-serif;
+  text-align: center; }
+  /* line 4, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 h2 {
+    font-size: 34px;
+    font-weight: bold; }
+  /* line 8, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .subtext {
+    font-size: 21px;
+    font-style: italic;
+    opacity: 0.6;
+    line-height: 160%;
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  /* line 16, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .my-btn {
+    color: #000;
+    font-size: 11px;
+    border-radius: 0px;
+    background-color: #f0f0f0;
+    border-color: #bbbbbb;
+    padding: 7px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    transition: all 0.25s ease 0.05s; }
+  /* line 27, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .my-btn:hover {
+    background-color: #bbbbbb;
+    border-color: #f0f0f0; }
+  /* line 31, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .boldText {
+    font-size: 16px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 0;
+    padding-top: 15px; }
+  /* line 38, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .normalText {
+    font-size: 14px;
+    text-align: left;
+    padding-bottom: 20px; }
+  /* line 43, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .img-center {
+    display: block;
+    margin: 0 auto; }
+  /* line 47, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .img-padding {
+    padding-top: 15px;
+    padding-bottom: 15px; }
+  /* line 51, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .hover-effect {
+    transition: all 0.4s ease 0.15s;
+    cursor: pointer;
+    -webkit-backface-visibility: hidden; }
+  /* line 56, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .hover-effect:hover {
+    filter: alpha(opacity=35);
+    -webkit-opacity: 0.35;
+    opacity: 0.35;
+    transform: scale(1.05); }
+  /* line 62, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .active {
+    cursor: default;
+    filter: alpha(opacity=35);
+    -webkit-opacity: 0.35;
+    opacity: 0.35;
+    transform: scale(1.05); }
+  /* line 69, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .share-links2 {
+    text-align: center;
+    padding-bottom: 25px; }
+  /* line 73, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .share-links2 span {
+    color: #666666;
+    margin: 10px; }
+  /* line 77, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .share-links2 span:hover {
+    color: #f78b32;
+    transition: 0.8s; }
+  /* line 81, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+  #inner-content2 .footer-text {
+    text-align: center;
+    color: #000;
+    opacity: 0.6;
+    font-size: 21px;
+    font-style: italic;
+    padding: 20px; }
+  @media (max-width: 992px) {
+    /* line 89, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+    #inner-content2 .margin-down {
+      margin-bottom: 40px; } }
+  @media (max-width: 768px) {
+    /* line 89, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+    #inner-content2 .margin-down {
+      margin-bottom: 0px; } }
+  @media (max-width: 992px) {
+    /* line 99, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+    #inner-content2 .normalText,
+    #inner-content2 .boldText {
+      text-align: center; }
+    /* line 102, C:/Users/User/Desktop/Angular-SPA-video/css/style.scss */
+    #inner-content2 .pull-left {
+      float: none !important; } }
+
+/*# sourceMappingURL=style.css.map */
